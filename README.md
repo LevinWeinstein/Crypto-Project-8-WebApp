@@ -2,6 +2,7 @@
 Login System App for Crypto Project 8
 
 Check it out here: http://crypto-class-login.levs.computer/
+For the attack, please go here: https://github.com/LevinWeinstein/Crypto-Project-8-Exploit
 
 ## How I implemented the login system
 When the user comes to main page of the website, it checks to make sure that they have a "user" cookie, and that the "user" cookie matches the "auth" cookie according to the hash of the user cookie concatenated with a server key.
