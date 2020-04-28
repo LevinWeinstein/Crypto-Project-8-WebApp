@@ -18,4 +18,4 @@ When the user logs in, with these credentials, they are routed to the __loginCon
 Once at the main page, the server checks to make sure that the user has a valid __vanilla_auth__ cookie and also a valid __vanilla_user__ cookie that matches it. If they do, they are redirected to the secret page, which says "Success! Hello ${Username}". Otherwise, they are redirected to the login page, and an error message is shown in the UI.
 
 ## Note
-I wanted to add a way to changed your sign in message to an embarrasing post / secret message, but I didn't get that functionality ready in time. Because of that, there's an unused "EmbarassingPosts" model and "embarassing_posts" table... Maybe latr I will add that functionlity! 
+I wanted to add a way to changed your sign in message to an embarrasing post / secret message, but I didn't get that functionality ready in time. Because of that, there's an unused "EmbarassingPosts" model and "embarassing_posts" table... Maybe later I will add that functionlity! 
